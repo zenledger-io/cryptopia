@@ -18,9 +18,9 @@ Gem::Specification.new do |spec|
   end
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "httparty", "= 0.17.0"
+  spec.add_dependency "httparty", ">= 0.17.0"
 
-  spec.add_development_dependency "bundler", "~> 1.16"
+  spec.add_development_dependency "bundler", "~> 2"
   spec.add_development_dependency "rake", "~> 12.3"
   spec.add_development_dependency "rspec", "~> 3.0"
   spec.add_development_dependency "vcr", "4.0.0"
